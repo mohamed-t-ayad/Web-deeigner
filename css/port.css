@@ -1,0 +1,575 @@
+/*Start Frame work */
+.padding {padding: 40px}
+ h2 {font-family: cursive;color: #9e8585}
+/*Start Frame work */
+
+
+/*Start navbar*/
+.navbar .navbar-brand {font-size: 25px;color: #9e8787}
+.navbar .navbar-nav li{margin-left: 15px}
+.navbar .navbar-brand SPAN {color: #4aabf0 }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #4aabf0;
+    color: #f3f3f3;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active{
+    color: #f3f3f3;
+    background-color: #4aabf0;
+}
+/*End navbar*/
+
+/*Start Slider*/
+.slide {position: relative;z-index: 1}
+.slide .carousel {margin-top: -20px}
+.slide .carousel .carousel-indicators {bottom: -5px}
+.slide .carousel .carousel-indicators li {width: 15px;height: 15px}
+.slide .carousel .carousel-indicators li.active {
+    background-color: #4aabf0;
+    width: 17px;
+    height: 17px;
+}
+.slide .carousel .carousel-inner .item img {width: 100%}
+.slide .carousel .carousel-caption {bottom: 8px}
+.slide .carousel .carousel-caption h2 {margin-bottom: 15px;color: #decaca}
+.slide .carousel .carousel-caption h2 span {color: #4aabf0}
+.slide .carousel .carousel-caption q {color: #fff}
+.slide .carousel .carousel-caption p {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 100px
+}
+.slide .carousel .carousel-caption p span {color: #4aabf0;font-size: 30px;font-family: cursive}
+.slide .carousel a > span:hover {color: #4aabf0}
+/*End Slider*/
+
+/*Start about me*/
+.about {margin-bottom: 50px;}
+.about h2 {
+    padding: 8px;
+    margin-bottom: 40px;
+}
+sup {color: #4aabf0}
+.about .info {margin-top: 35px}
+.about .info h3 {
+    color: #635d5d;
+    font-weight: bold;
+    float: right;
+    font-size: 27px;
+}
+.about .info h5 {
+    color: #4aabf0;
+    margin: 0px 0 40px 85px;
+    float: right
+}
+.about .info p {
+    float: right;
+    line-height: 1.6;
+    color: #666
+}
+.about .skills {
+    margin-top: 88px;
+}
+.about .skills div {background: #d4d4d4;border-radius: 5px;}
+.about .skills span {
+    background: #4aabf0;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    height: 12px;
+    margin-bottom: 40px;
+}
+/*end about me*/
+
+/*Start direct contact*/
+.d-contact {
+    padding: 100px;
+    background: #4aabf0;
+    transform: skewY(5deg);
+	color: #fff;
+}
+.d-contact .content  {
+    transform: skewY(-5deg);
+}
+.d-contact .row >DIV {
+    padding: 15px;
+    
+}
+.d-contact .row .i {
+    float: left;
+    width: 22%;
+    padding: 15px;
+    background: #344163;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center
+}
+.d-contact .row .info {
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.d-contact .row .info h3 {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+/*End direct contact*/
+
+/*Start Features*/
+.features h2 {
+    padding: 8px;
+    margin-bottom: 40px;
+}
+.features q {color: #777}
+.features .row {padding: 20px;margin: 20px 0}
+.features  .item {
+    padding: 30px;
+    margin: 8px;
+    border: 2px solid #4aabf0;
+    border-radius: 5px;
+	
+}
+.features  .item:hover {
+    /*transform: scale(1.2);*/
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 2px 5px 10px #ddd;
+}
+.features  .item i {opacity: .5;color: #4aabf0}
+.features  .item:hover i {opacity: 1;transition: all .5s ease-in-out}
+.features  .item h3 {color: #666}
+.features  .item p {color: #888;margin: 5px}
+.features  .item button {
+	background-color: transparent;
+	color: #4aabf0;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #4aabf0;
+    border-radius: 5px;
+}
+.features .item button:hover {
+    background: #4aabf0;
+    transition: all .5s ease;
+    color: #fff;
+}
+/*End Features*/
+
+/*Start section team*/
+.team h2 {
+    margin-bottom: 40px;
+}
+.team q {color: #777}
+.team .carousel-inner {height: 550px;margin-top: 50px;}
+.team .carousel .carousel-inner .item img {
+    margin-left: 440px;
+    width: 25%;
+    border-radius: 50%
+}
+.team .carousel .carousel-caption {bottom: -260px}
+.team .carousel-inner .item .carousel-caption h3 {color: #444;margin: 20px 0}
+.team .carousel-inner .item .carousel-caption h5 {color: #4aabf0;margin-bottom: 40px}
+.team .carousel-inner .item .carousel-caption p {color: #777;margin-bottom: 20px}
+.team .carousel-inner .item .carousel-caption button {
+    border: 1px solid #4aabf0;
+    border-radius: 5px;
+    background: #fff;
+    color: #4aabf0;
+    width: 110px;
+    height: 30px;
+    
+}
+.team .carousel-inner .item .carousel-caption button:hover {
+    background: #4aabf0;
+    color: #fff;
+    transition: all .5s ease-in;
+}
+/*End section team*/
+
+/*Start gallery*/
+.gallery h2 {
+    margin-bottom: 40px;
+}
+.gallery .controls button {
+    margin: 15px;
+    font-size: 15px;
+    width: 110px;
+    height: 35px;
+    background: #4aabf0;
+    border: 1px solid #4aabf0;
+    color: #fff;
+    border-radius: 5px;
+}
+.gallery .controls .filter {
+    color: #4aabf0;
+    background: #fff;
+}
+.gallery .controls .filter:hover,
+.gallery .controls button.selected {
+    color: #fff;
+    background: #4aabf0;
+    transition: all .5s ease-in-out;
+}
+.gallery .row {padding: 5px}
+.gallery .element {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.gallery .element img {
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+.gallery .element:hover img {
+    transform: scale(2);
+}
+.gallery .element .caption1 {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: -500px;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    color: #fff;
+}
+.gallery .element:hover .caption1 {
+    top: 0;
+}
+.gallery .element .caption3 {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: -500px;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    color: #fff;
+}
+.gallery .element:hover .caption3 {
+    bottom: 0px;
+}
+.gallery .element .caption1 button,
+.gallery .element .caption3 button {
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    color: #fff;
+    background: #4aabf0;   
+}
+/*End gallery*/
+
+/*Start Tstmonials*/
+.testmonials {
+    background: url(../images/test1.jpg) no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+    min-height: 700px;
+    color: #fff
+}
+.testmonials .overlay {
+    background: rgba(74, 171, 240, .6);
+    width: 100%;
+    min-height: 700px;
+}
+.testmonials h2 {
+    margin-bottom: 40px;
+	color: #fff !important;
+}
+.testmonials .slide > div {display: none}
+.testmonials .slide .shown {display: block;margin-top: 60px}
+.testmonials .slide .shown p {;margin-top: 90px}
+.testmonials .slide .shown span {font-size: 20px;display: block;margin: 50px}
+.testmonials .slide .shown img {border-radius: 50%}
+/*End Tstmonials*/
+
+/*Start section Quick connect*/
+.subscribe h2 {margin-bottom: 30px}
+.subscribe q {color: #777}
+.subscribe form {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.subscribe form input {
+    width: 400px;
+    color: #4aabf0;
+    text-align: center;
+}
+.subscribe form input:focus {
+    border: 1px solid #4aabf0;
+    border-radius: 6px;
+}
+.subscribe form button {
+    width: 200px;
+    height: 46px;
+    background: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #4aabf0;
+    color: #4aabf0;
+}
+.subscribe form button:hover {
+    color: #fff;
+    background: #4aabf0;
+}
+/*End section Quick connect*/
+
+/*Start section statistics*/
+.Statistics {
+    background: #4aabf0;
+    transform: skewY(-5deg);
+    padding: 60px;
+}
+.Statistics .content {
+    transform: skewY(5deg);
+}
+.Statistics h2 {
+    color: #fff;
+    padding: 10px;
+}
+.Statistics h2 sup {color: #947272}
+.Statistics .row {margin-top: 70px;color: #ddd}
+.Statistics .row .state {padding: 12px;font-size: 18px}
+.Statistics .row .state:hover {color: #fff}
+.Statistics .row .state h4 {color: #fbfbfb;padding: 5px 0 10px 0}
+/*End section statistics*/
+
+/*Start section carres*/
+.carrer h2 {
+    margin: 30px 0;
+    padding: 10px;
+}
+.carrer p {margin-bottom: 30px;color: #777}
+.carrer button {
+    height: 35px;
+    background-color: #fff;
+    color: #4aabf0;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 2px solid #4aabf0;
+    transition: .4s;
+}
+.carrer button:hover {
+    background-color: #4aabf0;
+    color: #fff;
+}
+.carrer img {width: 100%}
+/*End section carres*/
+
+/*Start Section contact us*/
+.contact {
+    background: url(../images/test1.jpg) no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+    color: #142a32;
+}
+.contact .overlay {
+    color: #fff;
+    background: rgba(31, 44, 53, .95);
+}
+.contact h2 {
+    padding: 10px;
+    margin-bottom: 50px;
+	color: #fff !important;
+}
+.contact .side p {
+    color: #9fa7ad;
+    margin-bottom: 20px;
+}
+.contact .side .links i {
+    margin: 0 3px;
+    color: #fff;
+}
+.contact .side p:last-of-type {
+    color: #4aabf0;
+    margin-top: 15px;
+    border-bottom: 2px solid #4aabf0;
+    width: 150px;
+}
+.contact form input {
+    display: block;
+    width: 80%;
+    margin-bottom: 25px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f1f1f1;
+}
+.contact form textarea {
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f1f1f1;
+    height: 100px;
+}
+.contact form span {
+    display: block;
+    margin-left: 72%;
+    color: #9fa7ad;
+    cursor: pointer;
+}
+/*End Section contact us*/
+
+/*Start footer*/
+.footer {
+    background: #222;
+    padding: 15px;
+    color: #9fa7ad;
+}
+.footer .copyright {
+    margin-bottom: 10px;
+    font-size: 20px;
+	padding: 10px 0;
+}
+.footer .copyright a {
+    text-decoration: none;
+    color: #4aabf0;
+}
+.footer .links i {
+    margin-left: 12px;
+    color: #9fa1a2;
+    cursor: pointer;
+}
+.footer .links i:hover {
+    color: #fff
+}
+/*End footer*/
+
+/*Start scroll_top button*/
+.scroll_top button {
+    position: fixed;
+    bottom: 111px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    display: none;
+    color: #4aabf0;
+    transition: all .4s ease;
+}
+.scroll_top button:hover {
+    background: #4aabf0;
+    color: #fff;
+}
+
+/*End scroll_top button*/
+
+
+/*Start Loading*/
+.load {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.load img {margin-top: 300px}
+#text {
+    margin-top: 50px;
+    font-size: 25px;
+    color: #4aabf0;
+    font-family: 'Supermercado One', cursive;
+}
+/*End Loading*/
+
+
+
+/************** Start Media Query *************/
+
+@media (max-width: 768px){
+    
+    /*Start about */
+    .about .row .info {width: 75%}
+    .about .info h5 {margin: 55px -218px 30px 85px;} 
+    
+    .about .row img {margin-left: 30px;}
+    /*End about */
+    
+    /*Start direct connect*/
+    .d-contact .row .i {padding: 22px;}
+    /*End direct connect*/
+    
+    /*Start our team*/
+    .team .carousel .carousel-inner .item img {
+        margin-left: 250px;
+    }
+    /*End our team*/
+    
+    /*Start gallery*/
+    .gallery .element img {width: 75%;margin-left: 15%;}
+    /*End gallery*/
+    
+    /*Start section subscribe*/
+    .subscribe form input {margin: 0 0 10px 40px;}
+    /*ُend section subscribe*/
+    
+    /*Start Statistics*/
+    .Statistics .row .state {margin-bottom: 10px;}
+    /*End Statistics*/
+    
+    /*Start cotact us */
+    .contact .side {margin-left: 25%}
+    .contact form {margin-left: 24%;width: 100%}
+    /*End cotact us */
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    /*Start about */
+    .about .info h5 {margin: 55px -218px 30px 85px;} 
+    .about .skills{width: 150%;margin-left: 100px;}
+    .about .row img {margin-left: 40px;}
+    /*End about */
+    
+    /*Start direct connect*/
+    .d-contact .row .info {margin-left: 100px;}
+    /*End direct connect*/
+    
+    /*Start our team*/
+    .team .carousel .carousel-inner .item img {margin-left: 275px}
+    /*End our team*/
+    
+    /*Start Statistics*/
+    .Statistics .row .state {margin-bottom: 10px;}
+    /*End Statistics*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*Start about */
+    .about .info h5 {margin: 55px -218px 30px 85px;} 
+    .about .skills{width: 80%;margin-left: 60px;}
+    /*End about */
+    
+    /*Start direct connect*/
+    .d-contact .row .i  {padding: 15px}
+    /*End direct connect*/
+    
+    /*Start our team*/
+    .team .carousel .carousel-inner .item img {margin-left: 355px}
+    /*End our team*/
+    
+    /*Start testmonials */
+    .testmonials h2 {margin-left: 318px;}
+    /*End testmonials */
+    
+    /*Start Statistics*/
+    .Statistics .row .state {margin-bottom: 10px;}
+    /*End Statistics*/  
+}
+/************** End Media Query *************/
+h2 {
+    
+}
+
+
+
+
+
+
